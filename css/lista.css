@@ -1,0 +1,117 @@
+/* Definições básicas */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #3c4f6d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo img {
+      max-width: 10%;
+      height: auto;
+      margin-right: auto;
+  }
+  
+  .discount-img img{
+    max-width: 70%;
+    height: auto;
+    margin-right: auto;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 10px;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Conteúdo principal */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 10px;
+    text-align: center;
+  }
+  
+  .container iframe {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      aspect-ratio: 16/9; /* proporção do vídeo */
+  }
+  
+  .box {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .box h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #3c4f6d;
+  }
+  
+  .box p {
+    margin-bottom: 20px;
+  }
+  
+  .box a {
+    display: inline-block;
+    background-color: #3c4f6d;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  .box a:hover {
+    background-color: #1f2b3d;
+  }
+
+  .course li {
+    margin-bottom: 10px;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  
